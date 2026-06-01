@@ -1,16 +1,10 @@
-# Terraform files
 .terraform/
 *.tfstate
 *.tfstate.*
 crash.log
 
-# Terraform lock file
 .terraform.lock.hcl
 
-# Sensitive variable files
-*.tfvars
-
-# Override files
 override.tf
 override.tf.json
 *_override.tf
